@@ -5,7 +5,7 @@
 ## 构建与运行
 
 ```bash
-gcd -Wall -Wextra -Werror fib.c -o fib
+gcc -Wall -Wextra -Werror fib.c -o fib
 echo 10 | ./fib
 ```
 
