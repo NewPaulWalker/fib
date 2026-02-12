@@ -20,16 +20,11 @@ int main(void) {
     }
 
     if (n == 0) {
-        printf("1\n");
+        printf("0\n");
         return 0;
     }
 
-    if (n == 1) {
-        printf("1\n");
-        return 0;
-    }
-
-    for (int i = 2; i < n; i++) {
+    for (int i = 2; i <= n; i++) {
         c = a + b;
         a = b;
         b = c;
